@@ -1,0 +1,8 @@
+name: pruning
+channels:
+  - defaults
+dependencies:
+  - python=3.6
+  - tqdm
+  - numpy
+prefix: C:\Users\an-ta\miniconda3\envs\pruning

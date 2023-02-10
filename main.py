@@ -13,7 +13,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Network Compression')
     # Training Hyperparameters
     training_args = parser.add_argument_group('training')
-    training_args.add_argument('--dataset', type=str, default='mnist',
+    training_args.add_argument('--dataset', type=str, default='cifar10',
                         choices=['mnist','cifar10','cifar100','tiny-imagenet','imagenet'],
                         help='dataset (default: mnist)')
     training_args.add_argument('--model', type=str, default='vgg11', choices=['fc','conv',
